@@ -21,6 +21,8 @@
         document.querySelector('.ytp-fullscreen-button').click()
         await new Promise(r => setTimeout(r, 200));
         document.querySelector('.ytp-fullscreen-button').click()
+        await new Promise(r => setTimeout(r, 200));
+        document.querySelector('.ytp-play-button').click()
     }
 }
 
